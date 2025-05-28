@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => {
       server: {
         host: '0.0.0.0', // Ensure the server binds to 0.0.0.0
         port: 3000,
+        allowedHosts: ['*']
       }
     };
 });
